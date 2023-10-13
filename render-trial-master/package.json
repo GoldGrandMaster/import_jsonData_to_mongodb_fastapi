@@ -1,0 +1,30 @@
+{
+  "name": "scrapper-api",
+  "version": "1.0.0",
+  "description": "Api for scrapper",
+  "type": "module",
+  "main": "./src/index.js",
+  "scripts": {
+    "start:dev": "nodemon ./src/index.js",
+    "start:test": "node ./src/index.js&&NODE_ENV=test",
+    "start:prod": "nodemon ./src/index.js"
+  },
+  "keywords": [
+    "scrapper",
+    "api"
+  ],
+  "author": "Kaleab Gulilat",
+  "license": "ISC",
+  "dependencies": {
+    "agenda": "^5.0.0",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "mongoose": "^7.2.2",
+    "puppeteer": "^19.5.2",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
